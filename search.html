@@ -1,0 +1,27 @@
+<!DOCTYPE html>    
+<html>    
+<head> 
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />   
+    <title>ISR</title>    
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+    <script type = "text/javascript" src="profile.js"></script> 
+    <script type = "text/javascript">function get_information() {
+      get_profile_information("06EC06000020335928B11987032600000000000479EFF8C00000000000")
+    }</script> 
+</head>    
+<body> 
+    
+    <div class="login-wrap"> 
+        <div class="login-html">
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Search your cerd</label>
+            <div class="group">
+                <input type="submit" class="button" onclick = get_information() value="searching">
+            </div> 
+            <p class="blocktext" id="showData"></p>
+
+        </div> 
+ 
+    </div> 
+ 
+</body>    
+</html>
